@@ -1,5 +1,5 @@
 # Manhunt-fix-Windows-11
-# NB! The creator of this fix is not responsible if something will go wrong during install,or for any issues that arise on your OS/hardware.This fix is distributed under GPL 3.0 license.This tutorial is meant for enthusiasts,tinkerers and gamers who want the the game to work and are not afraid to take the risk of learning some new stuff in the process.
+# NB! The creator of this fix is not responsible if something will go wrong during install,or for any issues that arise on your OS/hardware.This fix is distributed under GPL 3.0 license.This tutorial is meant for enthusiasts,tinkerers and gamers who want the the game to work and are not affraid to take the risk of learning some new stuff in the process.
 
 How to get Manhunt working on Windows 11:
 # NB!The latest fix without any folders is here it does not require previous ones and works across builds moved all the old fixes to other repo!
@@ -54,16 +54,26 @@ Manually:
  2. Find this folder,location User\Documents\Manhunt User Files\SaveGames\ 
  Copy/Paste your previous saved games files usually look like this MANHUNT0.SAV (skip if no saves)
  
-# NB Depending on your GPU use the appropriate folder with the fix files,f.e for some laptops use the Reshade Dual GPU's Laptops folder,on others enable NVIDIA Driver as main instead of Intel in the NVIDIA Control Panel>Program Settings>Set Primary GPU to NVIDIA instead of Intel HD
+ # FOR RETAIL VERSIONS OF MANHUNT ONLY,CD's,ISO's,etc when you get Steam 02 error(DO NOT RUN THIS ON STEAM VERSIONS OF THE GAME!!!!!)
+ 1. Install the game
+ 2. Depending on your GPU use the appropriate folder with the fix files,f.e for some laptops use the Reshade Dual GPU's Laptops folder,on others enable NVIDIA Driver as main instead of Intel in the NVIDIA Control Panel>Program Settings>Set Primary GPU to NVIDIA instead of Intel HD
+ 3. Copy/paste the testapp.exe from Manhunt TestApp for non Steam Versions folder
+ 4. Run the Manhunt Fix.bat file,do not launch the game yet.
+ 5. Go into your Manhunt folder,look for the installation it can be custom in every case.
+ 6. Rename the manhunt.old.exe to that appears after the patching to manhunt.exe
+ 7. Rename manhhunt.exe to manhunt.old.exe
+ 8. Launch the game.
+ 
+That's it,you are good to go,enjoy the game.
+
 
 That's it,you are good to go,enjoy the game.
 
 # All the credit goes to the creators of the original Manhunt fix patch AJ Collins,credit goes to ThirteenAG for .ini FPS limiter visit his site for more goodness:https://thirteenag.github.io/wfp 
-# Credit for audio fix goes to ermaccer,visit his website for more Manhunt goodies:https://ermaccer.github.io/
 # Combination of fixes,testing,manual configuration is done by silentgamepls. Hopefully will work for everyone and will save time looking for workarounds.
-# NB Updated to Windows 11 22H2 build version
+# NB added wine-based wrappers for Windows 10 2004 build support. 
+
 # NB added audio fix by ermaccer,experimental,check his repo also: https://github.com/ermaccer/Manhunt.AudioFix/releases/tag/1.0b5
-# NB Audio Fix Has been removed from the main fix and placed into a separate folder due to reports of false positives,related to using the ThirteenAG's dinput8.dll wrapper and ermaccers AudioFix.asi required for the audio fix to work,use at your own risk if you want functional audio in game and/or if you require the ThirteenAG's Widescreen Patch.
 # NB for all the users,please report any issues to the issues section in the github repo,not on my gaming youtube channel under unrelated videos!
 
 # Cheers! 
